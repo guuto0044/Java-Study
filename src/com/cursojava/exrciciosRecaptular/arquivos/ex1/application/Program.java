@@ -1,6 +1,6 @@
-package com.cursojava.exrciciosRecaptular.arquivos.application;
+package com.cursojava.exrciciosRecaptular.arquivos.ex1.application;
 
-import com.cursojava.exrciciosRecaptular.arquivos.entities.Product;
+import com.cursojava.exrciciosRecaptular.arquivos.ex1.entities.Product;
 
 import java.io.*;
 import java.util.ArrayList;

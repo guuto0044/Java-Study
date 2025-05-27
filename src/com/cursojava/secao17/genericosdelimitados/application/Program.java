@@ -28,7 +28,8 @@ public class Program {
 
             while (line != null){
                 String[] fields = line.split(",");
-                list.add(new Products(fields[0],Double.parseDouble(fields[1]))); // Instancia por base das linhas do
+                list.add(new Products(fields[0],Double.parseDouble(fields[1])));
+                // Instancia por base das linhas do
                 // arquivo e armazena na lista;
                 line = br.readLine();
             }

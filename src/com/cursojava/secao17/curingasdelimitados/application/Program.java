@@ -20,9 +20,11 @@ public class Program {
         System.out.println("total = " + totalArea(listCircle)); // totalArea(listShape)
     }
 
-    public static double totalArea(List<? extends Shape>list){ // Essa lista pode ser Shape ou qualquer tipo que seja
+    public static double totalArea(List<? extends Shape>list){
+        // Essa lista pode ser Shape ou qualquer tipo que seja
         // subtipo de Shape;
-//        list.add(3); (Erro - Não conseguimos adicionar elementos na lista dos métodos. Pois ele não sabe o tipo que o elemento pertence.)
+//        list.add(3); (Erro - Não conseguimos adicionar elementos na lista dos métodos.
+//        Pois ele não sabe o tipo que o elemento pertence.)
         double sum = 0.0;
         for (Shape s : list){
             sum +=s.area();
