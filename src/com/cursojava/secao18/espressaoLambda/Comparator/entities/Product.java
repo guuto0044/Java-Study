@@ -1,4 +1,4 @@
-package com.cursojava.secao18.espressaoLambda.entities;
+package com.cursojava.secao18.espressaoLambda.Comparator.entities;
 
 public class Product {
 

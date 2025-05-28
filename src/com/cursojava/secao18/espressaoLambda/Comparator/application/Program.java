@@ -1,6 +1,6 @@
-package com.cursojava.secao18.espressaoLambda.application;
+package com.cursojava.secao18.espressaoLambda.Comparator.application;
 
-import com.cursojava.secao18.espressaoLambda.entities.Product;
+import com.cursojava.secao18.espressaoLambda.Comparator.entities.Product;
 
 import java.util.ArrayList;
 import java.util.List;
